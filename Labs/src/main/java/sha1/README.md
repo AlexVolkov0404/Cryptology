@@ -1,4 +1,4 @@
-# SHA-1 (Secure Hash Algorithm 1) (Lab2)
+# SHA-1 (Secure Hash Algorithm 1) (Lab1)
 
 SHA-1 (Secure Hash Algorithm 1) is a cryptographic hash function used to produce a unique fixed-length 160-bit hash value from any input message. Here is a detailed explanation of the SHA-1 algorithm:
 
