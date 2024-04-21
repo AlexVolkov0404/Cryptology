@@ -5,7 +5,7 @@ SHA-1 (Secure Hash Algorithm 1) is a cryptographic hash function used to produce
 ## **1. Message Preparation**
 The input message is divided into fixed-length blocks and padded to the required length if necessary. Padding typically follows the "length-1-bit-0-length" scheme.
 
-## **3. Message Block Processing**
+## **2. Message Block Processing**
 Each message block undergoes an iterative process involving several steps.
 
 **a. Block Splitting into Words**
@@ -23,7 +23,7 @@ Eighty rounds of operations are performed, in which the variables interact with 
 **e. Hash Value Update**
 After each round, the variables are updated based on the results of the round operations.
 
-## **4. Final Hash Value Formation**
+## **3. Final Hash Value Formation**
 After processing all the message blocks, the final hash value is formed by concatenating the values of the variables representing parts of the hash code.
 
 The SHA-1 algorithm utilizes various logical and bitwise operations such as bitwise shifts, logical conjunctions and disjunctions, circular bitwise shifts, and inversions. These operations ensure good bit distribution and non-linearity in the hash code generation process.
